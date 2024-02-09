@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    background-color: bisque;
+    box-sizing: border-box;
+}
+
+header {
+    position: fixed;
+    background-color: blue;
+    color: white;
+    top: 0;
+    left: 0;
+    height: 100px;
+    width: 100%;
+}
+
+aside {
+    position: fixed;
+    background-color: aquamarine;
+    color: black;
+    top: 100px;
+    left: 0;
+    bottom: 25px;
+    width: 20%;
+}
+
+section {
+    position: fixed;
+    overflow-y: scroll;
+    background-color: #656e85;
+    color: black;
+    top: 100px;
+    left: 20%;
+    bottom: 25px;
+    width: 80%;
+    padding: 1%;
+}
+
+footer {
+    position: fixed;
+    background-color: black;
+    text-align: center;
+    color: white;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 25px;
+    
+}
+
+nav a {
+    text-decoration: none;
+    background-color: green;
+    color: white;
+}
+
+a:hover {
+    background-color: red;
+    color: yellow;
+}
