@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TechShop</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/styles.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <header class="encabezado">
+            <nav class="navegacion">
+                <a href="index.html" class="logo">TechShop</a>
+                
+                <ul class="nav-menu">
+                    <li class="nav-menu-item"><a href="pagina4.html" class="nav-link nav-menu-link">&triangleleft;</a></li>
+                    <li class="nav-menu-item"><a href="pagina2.html" class="nav-link nav-menu-link">&triangleright;</a></li>
+                    <li class="nav-menu-item"><a href="audios.html" class="nav-link nav-menu-link">Audios</a></li>
+                    <li class="nav-menu-item"><a href="formulario.html" class="nav-link nav-menu-link">Formulario</a></li>
+                    <li class="nav-menu-item"><a href="iframe.html" class="nav-link nav-menu-link">iFrame</a></li>
+                    <li class="nav-menu-item"><a href="videos.html" class="nav-link nav-menu-link">Videos</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <aside>
+            <h2>Uso de Form</h2>
+
+            <p>Obtener info del usario</p>
+        </aside>
+        
+        <section>
+            <h2>Form basico</h2>
+            
+            <article>
+                <h3>Registro del cliente</h3>
+                
+                <form action="/cliente/agregar" method="post">
+                    Nombre Completo: <input type="text" name="nombre" value="" size="45" /><br>
+                    Clave: <input type="password" name="password" value="" size="20" /><br>
+                    Edad: <input type="number" name="age" value="" /><br>
+                    correo: <input type="email" name="nombre" value="" size="45" /><br>
+                    <input type="submit" value="Enviar" />
+                </form>
+            </article>
+        </section>
+
+        <footer>
+            &COPY; Derechos Reservados TechShop 2024
+        </footer>
+    </body>
+</html>
